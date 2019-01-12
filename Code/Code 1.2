@@ -1,0 +1,40 @@
+
+/**
+ * Write a description of class TrafficSafetyMain here.
+ *
+ * @Sakthivijay Jayaraman // @Ashwin Penumetch
+ * @1.2
+ */
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class TrafficSafety
+{
+	public static JFrame mainframe = new JFrame("Mainframe");
+	public static JFrame EqFrame = new JFrame("Equations");
+	public static JFrame DataFrame = new JFrame("Data");
+	public static JPanel InputPanel = new JPanel();
+	public static JPanel OutputPanel = new JPanel();
+	public static JPanel ExitPanel = new JPanel();
+	public static JButton DataShowBtn = new JButton("Data");
+	public static JButton EqShowBtn = new JButton("Equations");
+	public static JButton EqCloseBtn = new JButton("Close");
+	public static JButton DataCloseBtn = new JButton("Close");
+
+	public void main(String[] args)
+	{
+		mainframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		mainframe.setSize(450,500);
+		mainframe.setResizable(false);
+		mainframe.setVisible(true);
+		EqFrame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+		EqFrame.setSize(450,500);
+		EqFrame.setVisible(false);
+		DataFrame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+		DataFrame.setSize(450,500);
+		DataFrame.setVisible(false);
+		GridLayout InputLayout = new GridLayout(6,1);
+		GridLayout OutputLayout = new GridLayout(6,1);
+	}
+}
