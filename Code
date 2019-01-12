@@ -1,0 +1,23 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class TrafficSafety
+{
+	public static JFrame mainframe = new JFrame("Mainframe");
+	public static JFrame EqFrame = new JFrame("Equations");
+	public static JFrame 
+	public static JPanel InputPanel = new JPanel();
+	public static JPanel OutputPanel = new JPanel();
+	public static JPanel ExitPanel = new JPanel();
+
+	public void main(String[] args)
+	{
+		GridLayout InputLayout = new GridLayout(6,1);
+		GridLayout OutputLayout = new GridLayout(6,1);
+		mainframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		mainframe.setUndecorated(true);
+		mainframe.setSize(500,500);
+		mainframe.setResizable(false);
+	}
+}
